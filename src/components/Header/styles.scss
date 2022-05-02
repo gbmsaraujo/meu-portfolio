@@ -1,0 +1,36 @@
+@import '../../scss/setups.scss';
+
+.ct-header{
+    background-color:$bg-header-dark;
+    box-shadow: $shadow-header-dark;
+
+    .ct-header__contents{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 5px;
+        position: sticky;
+
+        nav{
+            ul{
+                display: flex;
+                align-items: center;
+                li{
+                    list-style: none;
+                    margin-left: 20px;
+                    @include formatText($p-color-dark, $font-header, 20px, 0, none);
+                    cursor:pointer;
+                    &:hover{
+                        font-size: 25px;
+                        transition: 0.3s;
+                    }
+                    
+                }
+            }
+        }
+
+       
+    }
+
+
+}
