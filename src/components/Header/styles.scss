@@ -1,36 +1,103 @@
-@import '../../scss/setups.scss';
+@import "../../scss/setups.scss";
 
-.ct-header{
-    background-color:$bg-header-dark;
-    box-shadow: $shadow-header-dark;
+.ct-header-dark {
+	background-color: $bg-header-dark;
+	box-shadow: $shadow-header-dark;
 
-    .ct-header__contents{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        padding: 5px;
-        position: sticky;
+	.ct-header__contents-dark {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		padding: 5px;
+		position: sticky;
 
-        nav{
-            ul{
-                display: flex;
-                align-items: center;
-                li{
-                    list-style: none;
-                    margin-left: 20px;
-                    @include formatText($p-color-dark, $font-header, 20px, 0, none);
-                    cursor:pointer;
-                    &:hover{
-                        font-size: 25px;
-                        transition: 0.3s;
-                    }
-                    
-                }
-            }
-        }
+		nav {
+			ul {
+				display: flex;
+				align-items: center;
+				li {
+					list-style: none;
+					margin-left: 20px;
+					@include formatText(
+						$pr-color-dark,
+						$font-header,
+						20px,
+						0,
+						none
+					);
+					cursor: pointer;
+					&:hover {
+						font-size: 25px;
+						transition: 0.3s;
+					}
+				}
+			}
+		}
 
-       
-    }
+		.btn-theme-dark {
+			background: none;
+			border: none;
+			outline: none;
+			cursor: pointer;
+
+			img {
+				&:hover {
+					transition: 0.3s;
+					width: 45px;
+				}
+			}
+		}
+	}
+}
 
 
+.ct-header-light {
+	background-color: $bg-header-light;
+	box-shadow: $shadow-header-light;
+
+	.ct-header__contents-light {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		padding: 5px;
+		position: sticky;
+
+		nav {
+			ul {
+				display: flex;
+				align-items: center;
+				li {
+					list-style: none;
+					margin-left: 20px;
+					@include formatText(
+						$pr-color-light,
+						$font-header,
+						20px,
+						0,
+						none
+					);
+					cursor: pointer;
+					&:hover {
+						font-size: 25px;
+						transition: 0.3s;
+					}
+				}
+			}
+		}
+
+		.btn-theme-light {
+			background: none;
+			border: none;
+			outline: none;
+			cursor: pointer;
+
+			img {
+                fill: black;
+				&:hover {
+					transition: 0.3s;
+					width: 45px;
+				}
+			}
+		}
+	}
 }

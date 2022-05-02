@@ -3,10 +3,12 @@ import logo from './imgs/logo.svg'
 import blackWhite from './imgs/bw-change.svg'
 
 
-const Header = () =>{
+const Header = ({ headerContainer, headerContents, btnTheme, eventChange }) =>{
+
+
     return(
-        <header className="ct-header">
-            <div className='ct-header__contents'>
+        <header className={headerContainer}>
+            <div className={headerContents}>
                 <img src={logo} alt="Logo do Gabriel" />
                 <nav>
                     <ul>
@@ -18,8 +20,10 @@ const Header = () =>{
                         
                     </ul>
                 </nav>
-
-                <img src={blackWhite} alt="" />
+                <button className={btnTheme} onClick={eventChange}>
+                    <img src={blackWhite} alt="Mudar para o tema do portfólio" />
+                </button>
+            
             </div>
         </header>
     )

@@ -9,7 +9,7 @@ $font-text: 'Open Sans', sans-serif;
 
 //Dark Theme
 
-$p-color-dark:#FFFFFF;
+$pr-color-dark:#FFFFFF;
 $bg-header-dark:linear-gradient(180deg, #30334F 30.53%, rgba(48, 51, 79, 0) 100%);
 $shadow-header-dark: 0px 6px 6px 1px #141516;
 $bg-dark:#3A3C4B;
@@ -20,7 +20,7 @@ $dropshadow-dark: drop-shadow(-17px 8px 5px rgba(0, 0, 0, 0.25));
 // Light Theme 
 
 $bg-light:#E9E8E8;
-$p-color-light:#222438;
+$pr-color-light:#222438;
 $bg-header-light:linear-gradient(360deg, #FFFFFF -68.95%, rgba(48, 51, 79, 0) -0.01%, rgba(48, 79, 70, 0.203125) -0.01%, rgba(235, 235, 235, 0.203125) 0%);
 $shadow-header-light: 0px 6px 6px 1px rgba(20, 21, 22, 0.28);
 $bg-box-light: linear-gradient(0.11deg, rgba(226, 226, 230, 0.49) 0.12%, rgba(153, 160, 233, 0.28) 103.01%);
