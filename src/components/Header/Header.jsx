@@ -5,10 +5,10 @@ import blackWhite from './imgs/bw-change.svg'
 
 const Header = ({ headerContainer, headerContents, btnTheme, eventChange }) =>{
 
-
     return(
         <header className={headerContainer}>
             <div className={headerContents}>
+                
                 <img src={logo} alt="Logo do Gabriel" />
                 <nav>
                     <ul>
@@ -16,8 +16,7 @@ const Header = ({ headerContainer, headerContents, btnTheme, eventChange }) =>{
                         <li> Skills </li>
                         <li> Projetos </li>
                         <li> Contatos </li>
-                        <li> Formação </li>
-                        
+                        <li> Formação </li>       
                     </ul>
                 </nav>
                 <button className={btnTheme} onClick={eventChange}>

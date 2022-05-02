@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Header from '../../components/Header/Header'
+import Sobre from '../../components/Sobre/Sobre'
 import './styles.scss'
 
 const Home = ( { contentContainer } ) =>{
@@ -31,7 +32,15 @@ const Home = ( { contentContainer } ) =>{
            headerContainer='ct-header-dark'  
            headerContents='ct-header__contents-dark'
            btnTheme='btn-theme-dark'
-           eventChange={handleTheme}/>} 
+           eventChange={handleTheme}/>}
+
+           <main className='ct-main'> 
+               <Sobre /> 
+           
+           
+           
+           
+           </main>
         </div>
     )
 }

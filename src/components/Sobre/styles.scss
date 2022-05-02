@@ -1,0 +1,101 @@
+@import "../../scss/setups.scss";
+
+.ct-sobre-dark {
+	max-width: 1320px;
+	min-height: 486px;
+	margin-top: 74px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	background: $bg-box-dark;
+	filter: $dropshadow-dark;
+	border-radius: 20px;
+	cursor: pointer;
+	&:hover {
+		transform: scale3d(1);
+	}
+
+	.ct-sobre__description-dark {
+		width: 640px;
+		display: flex;
+		flex-direction: column;
+		margin-top: 50px;
+		margin-left: 110px;
+		h1 {
+			margin-left: 20px;
+			@include formatText($pr-color-dark, $font-text, 36px, 600, normal);
+		}
+
+		p {
+			margin-top: 30px;
+			text-align: justify;
+			@include formatText($pr-color-dark, $font-text, 22px, 300, normal);
+		}
+	}
+
+	.ct-sobre__picture-dark {
+		width: 440px;
+		display: flex;
+		flex-direction: column;
+		margin-top: 75px;
+		align-items: center;
+		img {
+			width: 300px;
+			border-radius: 50%;
+		}
+		p {
+			@include formatText($pr-color-dark, $font-text, 22px, 300, normal);
+			margin-top: 20px;
+		}
+	}
+}
+
+.ct-sobre-light {
+	max-width: 1320px;
+	min-height: 486px;
+	margin-top: 74px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	background: $bg-box-light;
+	filter: $dropshadow-light;
+	border-radius: 20px;
+	cursor: pointer;
+	&:hover {
+		transform: scale3d(1);
+	}
+
+	.ct-sobre__description-light {
+		width: 640px;
+		display: flex;
+		flex-direction: column;
+		margin-top: 50px;
+		margin-left: 110px;
+		h1 {
+			margin-left: 20px;
+			@include formatText($pr-color-light, $font-text, 36px, 600, normal);
+		}
+
+		p {
+			margin-top: 30px;
+			text-align: justify;
+			@include formatText($pr-color-light, $font-text, 22px, 300, normal);
+		}
+	}
+
+	.ct-sobre__picture-dark {
+		width: 440px;
+		display: flex;
+		flex-direction: column;
+		margin-top: 75px;
+		align-items: center;
+		img {
+			width: 300px;
+			border-radius: 50%;
+		}
+		p {
+			@include formatText($pr-color-light, $font-text, 22px, 300, normal);
+			margin-top: 20px;
+		}
+	}
+}

@@ -3,6 +3,7 @@
 .ct-header-dark {
 	background-color: $bg-header-dark;
 	box-shadow: $shadow-header-dark;
+	margin-bottom: 74px;
 
 	.ct-header__contents-dark {
 		display: flex;
@@ -21,7 +22,7 @@
 					@include formatText(
 						$pr-color-dark,
 						$font-header,
-						20px,
+						22px,
 						0,
 						none
 					);
@@ -39,17 +40,9 @@
 			border: none;
 			outline: none;
 			cursor: pointer;
-
-			img {
-				&:hover {
-					transition: 0.3s;
-					width: 45px;
-				}
-			}
 		}
 	}
 }
-
 
 .ct-header-light {
 	background-color: $bg-header-light;
