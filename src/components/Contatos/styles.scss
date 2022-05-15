@@ -1,0 +1,37 @@
+@import "../../scss/setups.scss";
+
+.ct-contatos-dark {
+	max-width: 1320px;
+	min-height: 486px;
+	margin: 0 auto;
+	margin-top: 60px;
+	display: flex;
+	flex-direction: column;
+	background: $bg-box-dark;
+	filter: $dropshadow-dark;
+	border-radius: 20px;
+
+	h2 {
+		margin: 30px 140px;
+		@include formatText($pr-color-dark, $font-text, 36px, 500, regular);
+	}
+	p{
+		margin: 40px 140px;
+		@include formatText($pr-color-dark, $font-text, 26px, 400, regular);
+	}
+	.ct-contatos-dark__icons{
+		display: flex;
+		gap:40px;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		img{
+			width: 60px;
+			cursor: pointer;
+			transition: all 400ms ease;
+			&:hover{
+				transform: scale(1.2);
+			}
+		}
+	}
+}

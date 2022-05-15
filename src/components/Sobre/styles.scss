@@ -10,8 +10,7 @@
 	background: $bg-box-dark;
 	filter: $dropshadow-dark;
 	border-radius: 20px;
-	cursor: pointer;
-	
+
 
 	.ct-sobre__description-dark {
 		width: 640px;
@@ -58,10 +57,7 @@
 	background: $bg-box-light;
 	filter: $dropshadow-light;
 	border-radius: 20px;
-	cursor: pointer;
-	&:hover {
-		transform: scale3d(1);
-	}
+	
 
 	.ct-sobre__description-light {
 		width: 640px;

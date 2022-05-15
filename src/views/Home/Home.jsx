@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Contatos from '../../components/Contatos/Contatos'
 import Formacao from '../../components/Formacao/Formacao'
 import Header from '../../components/Header/Header'
 import Projetos from '../../components/Projetos/Projetos'
@@ -41,10 +42,10 @@ const Home = ( { contentContainer } ) =>{
                <Sobre /> 
                <Skills />
                <Projetos />
+               <Contatos/>
                <Formacao />
            
-           
-           
+
            </main>
         </div>
     )

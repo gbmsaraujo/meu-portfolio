@@ -10,7 +10,6 @@
 	background: $bg-box-dark;
 	filter: $dropshadow-dark;
 	border-radius: 20px;
-	cursor: pointer;
     h2{
         margin: 30px 140px;
 		@include formatText($pr-color-dark, $font-text, 36px, 500, regular);
