@@ -1,5 +1,8 @@
 import { useState } from 'react'
+import Formacao from '../../components/Formacao/Formacao'
 import Header from '../../components/Header/Header'
+import Projetos from '../../components/Projetos/Projetos'
+import Skills from '../../components/Skills/Skills'
 import Sobre from '../../components/Sobre/Sobre'
 import './styles.scss'
 
@@ -36,7 +39,9 @@ const Home = ( { contentContainer } ) =>{
 
            <main className='ct-main'> 
                <Sobre /> 
-           
+               <Skills />
+               <Projetos />
+               <Formacao />
            
            
            

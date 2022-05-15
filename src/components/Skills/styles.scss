@@ -1,1 +1,99 @@
-@import '../../scss/setups.scss';
+@import "../../scss/setups.scss";
+
+.ct-skills-dark {
+	max-width: 1320px;
+	min-height: 486px;
+	margin: 0 auto;
+	margin-top: 60px;
+	background: $bg-box-dark;
+	filter: $dropshadow-dark;
+	border-radius: 20px;
+	cursor: pointer;
+	h2 {
+		margin: 30px 140px;
+		@include formatText($pr-color-dark, $font-text, 36px, 500, regular);
+	}
+	.ct-skills__front-end-dark {
+		h3 {
+			margin: 10px 165px;
+			@include formatText($pr-color-dark, $font-text, 26px, 100, italic);
+		}
+		.ct-skills__icons-dark {
+			margin-top: 36px;
+			display: flex;
+			justify-content: center;
+			gap: 50px;
+			align-items: center;
+			.box-html,
+			.box-css,
+			.box-javascript,
+			.box-react,
+			.box-vue {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				p {
+					margin-top: 8px;
+					@include formatText(
+						$pr-color-dark,
+						$font-text,
+						22px,
+						600,
+						none
+					);
+				}
+			}
+
+			.box-vue {
+				margin-top: 15px;
+			}
+		}
+	}
+
+	.ct-skills__back-end-dark {
+		h3 {
+			margin: 15px 165px;
+			@include formatText($pr-color-dark, $font-text, 26px, 100, italic);
+		}
+		.ct-skills__icons-dark {
+			margin-top: 10px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: 31.1px;
+			.box-node,
+			.box-sql,
+			.box-sequelize {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
+
+			.box-node {
+				p {
+					margin-top: 6.11px;
+					@include formatText(
+						$pr-color-dark,
+						$font-text,
+						22px,
+						600,
+						none
+					);
+				}
+			}
+
+			.box-sql {
+				p {
+					margin-top: 15.05px;
+					@include formatText(
+						$pr-color-dark,
+						$font-text,
+						22px,
+						600,
+						none
+					);
+				}
+			}
+		}
+	}
+}
