@@ -15,15 +15,15 @@ const Formacao = () => {
 				<VerticalTimelineElement
 					className="vertical-timeline-element--work"
 					contentStyle={{
-						background: "rgb(37, 33, 85)",
+						background: "rgb(6, 16, 34)",
 						color: "#fff",
 					}}
 					contentArrowStyle={{
-						borderRight: "7px solid  rgb(37, 33, 85)",
+						borderRight: "7px solid  rgb(6, 16, 34)",
 					}}
 					date="Fev. de 2018 - present"
 					iconStyle={{
-						background: "rgb(37, 33, 85)",
+						background: "rgb(6, 16, 34)",
 						color: "#fff",
 					}}
 					icon={<FaUniversity />}
@@ -42,15 +42,15 @@ const Formacao = () => {
 				<VerticalTimelineElement
 					className="vertical-timeline-element--work"
 					contentStyle={{
-						background: "rgb(37, 33, 85)",
+						background: "rgb(6, 16, 34)",
 						color: "#fff",
 					}}
 					contentArrowStyle={{
-						borderRight: "7px solid  rgb(37, 33, 85)",
+						borderRight: "7px solid rgb(6, 16, 34)",
 					}}
 					date="Out. de 2021 - Mai. de 2022"
 					iconStyle={{
-						background: "rgb(37, 33, 85)",
+						background: "rgb(6, 16, 34)",
 						color: "#fff",
 					}}
 					icon={<MdComputer />}
@@ -74,15 +74,15 @@ const Formacao = () => {
 				<VerticalTimelineElement
 					className="vertical-timeline-element--work"
 					contentStyle={{
-						background: "rgb(37, 33, 85)",
+						background: "rgb(6, 16, 34)",
 						color: "#fff",
 					}}
 					contentArrowStyle={{
-						borderRight: "7px solid  rgb(37, 33, 85)",
+						borderRight: "7px solid  rgb(6, 16, 34)",
 					}}
 					date="Out. de 2021 - Mai. de 2022"
 					iconStyle={{
-						background: "rgb(37, 33, 85)",
+						background: "rgb(6, 16, 34)",
 						color: "#fff",
 					}}
 					icon={<MdComputer />}
