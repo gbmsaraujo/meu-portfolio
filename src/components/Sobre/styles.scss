@@ -3,10 +3,10 @@
 .ct-sobre-dark {
 	max-width: 1320px;
 	min-height: 486px;
+	margin: 0 auto;
 	margin-top: 74px;
 	display: flex;
 	justify-content: space-between;
-	margin: 0 auto;
 	background: $bg-box-dark;
 	filter: $dropshadow-dark;
 	border-radius: 20px;
@@ -93,3 +93,4 @@
 		}
 	}
 }
+

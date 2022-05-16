@@ -7,7 +7,7 @@ import twitter from "./icons/twitter.svg"
 
 const Contatos = () =>{
     return(
-        <section className="ct-contatos-dark">
+        <section className="ct-contatos-dark" id="contatos">
             <h2>Contatos</h2>
             <p>Você pode me encontrar clicando em uma das redes sociais abaixo:</p>
 

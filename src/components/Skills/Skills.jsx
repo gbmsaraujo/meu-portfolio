@@ -10,7 +10,7 @@ import sqlBd from "./imgs/icons/sql.svg";
 
 const Skills = () => {
 	return (
-		<section className="ct-skills-dark">
+		<section className="ct-skills-dark" id="hard-skills">
 			<h2> Hard Skills </h2>
 
 			<div className="ct-skills__front-end-dark">

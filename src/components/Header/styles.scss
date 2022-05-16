@@ -3,23 +3,24 @@
 .ct-header-dark {
 	background-color: $bg-header-dark;
 	box-shadow: $shadow-header-dark;
-	margin-bottom: 74px;
+	position: sticky;
+	width: 100%;
 
 	.ct-header__contents-dark {
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
 		padding: 5px;
-		position: sticky;
+		
 
 		nav {
 			ul {
 				display: flex;
 				align-items: center;
 				li {
-					list-style: none;
-					margin-left: 20px;
-					@include formatText(
+					a{
+						text-decoration: none;
+						@include formatText(
 						$pr-color-dark,
 						$font-header,
 						22px,
@@ -31,6 +32,10 @@
 						font-size: 25px;
 						transition: 0.3s;
 					}
+					}
+					list-style: none;
+					margin-left: 20px;
+					
 				}
 			}
 		}
@@ -94,3 +99,4 @@
 		}
 	}
 }
+

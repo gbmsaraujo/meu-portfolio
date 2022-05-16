@@ -1,10 +1,29 @@
 @import '../../scss/setups.scss';
 
 .contents-dark{
+    display: flex;
+    flex-direction: column;
     background-color: $bg-dark;
     padding-bottom: 10px;
+    .top-page{
+        position: fixed;
+        top: 0;
+        margin-left: 90vw;
+        margin-top: 80vh;
+        font-size: 50px;
+        color: #ffff;
+        cursor: pointer;
+        transition: all 200ms ease-in;
+        &:hover{
+            transform: scale(1.4);
+        }
+        .top-page-clicked{
+            display: none;
+        }
+    }
 }
 
 .contents-light{
     background-color: $bg-light;
 }
+

@@ -9,7 +9,7 @@ import "react-vertical-timeline-component/style.min.css";
 
 const Formacao = () => {
 	return (
-		<section className="ct-formacao-dark">
+		<section className="ct-formacao-dark" id="formacao">
             <h2>Formação</h2>
 			<VerticalTimeline>
 				<VerticalTimelineElement

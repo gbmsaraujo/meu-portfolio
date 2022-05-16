@@ -1,10 +1,10 @@
 import './styles.scss'
 import fotoProfissional from './imgs/foto-profissional.svg'
 
-const Sobre = () => {
+const Sobre = ({ctClasse}) => {
     return(
 
-            <section className="ct-sobre-dark">
+            <section className={ctClasse} id="sobre">
 
                 <div className='ct-sobre__description-dark'>
                     <h1>Oi, Sou Gabriel Araujo</h1>
